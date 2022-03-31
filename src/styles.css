@@ -1,0 +1,73 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.my-node {
+  border: 1px solid #e86c24;
+  border-radius: 4px;
+  width: 150px;
+  height: 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  background-color: #f4ece4;
+}
+
+.my-port {
+  width: 13px;
+  height: 13px;
+  border-radius: 10px;
+  background-color: #e86c24;
+  cursor: pointer;
+  position: relative;
+  z-index: -2;
+  cursor: pointer;
+}
+
+.my-node-header-container {
+  width: 100%;
+  height: 25px;
+  text-align: left;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  display: flex;
+}
+
+.my-node-header-text {
+  color: #fff;
+  font-size: 13px;
+  padding-left: 3px;
+  margin-top: 4px;
+}
+
+.my-node-content {
+  color: #6a6b6b;
+  font-size: 11px;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.port-container {
+  position: absolute;
+  top: 40px;
+}
+
+.left-port {
+  left: 0;
+  margin-left: -7px;
+}
+
+.right-port {
+  right: 0;
+  margin-right: -7px;
+}
+
+.my-icon {
+  margin-top: 3px;
+  margin-left: 4px;
+}
